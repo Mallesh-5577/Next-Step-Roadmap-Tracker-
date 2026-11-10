@@ -1,4 +1,4 @@
-# SkillTrail – Personal Learning Roadmap Tracker
+# Next Step – Personal Learning Roadmap Tracker
 
 A beginner-friendly React project built with HTML, CSS and JavaScript. It is a frontend-only app: user data is stored in the browser using LocalStorage.
 
