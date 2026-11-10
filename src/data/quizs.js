@@ -1,0 +1,303 @@
+
+export const quizzes = [
+  // ==========================================
+  // 1. HTML5 - 30 QUESTIONS
+  // ==========================================
+  {
+    id: "html5",
+    title: "HTML5",
+    category: "Frontend",
+    icon: "🌐",
+    duration: 20,
+    questions: [
+      { id: 1, question: "What does HTML stand for?", options: ["Hyper Text Markup Language", "High Text Machine Language", "Hyper Transfer Markup Language", "Home Tool Markup Language"], answer: 0, explanation: "HTML stands for HyperText Markup Language." },
+      { id: 2, question: "Which tag defines the largest heading?", options: ["<head>", "<h6>", "<h1>", "<heading>"], answer: 2, explanation: "The h1 element represents the highest-level heading." },
+      { id: 3, question: "Which tag creates a hyperlink?", options: ["<link>", "<a>", "<href>", "<url>"], answer: 1, explanation: "The anchor tag creates hyperlinks using the href attribute." },
+      { id: 4, question: "Which attribute specifies an image location?", options: ["href", "link", "src", "alt"], answer: 2, explanation: "The src attribute specifies the image URL or file path." },
+      { id: 5, question: "Which tag creates an ordered list?", options: ["<ul>", "<li>", "<ol>", "<list>"], answer: 2, explanation: "The ol element creates a numbered list." },
+      { id: 6, question: "Which HTML tag inserts a line break?", options: ["<break>", "<br>", "<lb>", "<hr>"], answer: 1, explanation: "The br element inserts a line break." },
+      { id: 7, question: "Which attribute provides alternative image text?", options: ["title", "src", "alt", "name"], answer: 2, explanation: "The alt attribute provides alternative text for images." },
+      { id: 8, question: "Which element defines a table row?", options: ["<td>", "<th>", "<tr>", "<table-row>"], answer: 2, explanation: "The tr element defines a table row." },
+      { id: 9, question: "Which tag creates a text input?", options: ["<input type='text'>", "<textbox>", "<text>", "<form>"], answer: 0, explanation: "An input element with type text creates a single-line text field." },
+      { id: 10, question: "Which declaration defines an HTML5 document?", options: ["<html5>", "<!DOCTYPE html>", "<DOCTYPE HTML5>", "<document>"], answer: 1, explanation: "DOCTYPE html declares an HTML5 document." },
+      { id: 11, question: "Which tag contains metadata?", options: ["<body>", "<main>", "<head>", "<footer>"], answer: 2, explanation: "The head element contains document metadata and linked resources." },
+      { id: 12, question: "Which tag defines the main page content?", options: ["<main>", "<section>", "<aside>", "<nav>"], answer: 0, explanation: "The main element represents the dominant content of a document." },
+      { id: 13, question: "Which element is used for playing video?", options: ["<movie>", "<media>", "<video>", "<play>"], answer: 2, explanation: "The video element embeds video content." },
+      { id: 14, question: "Which attribute opens a link in a new tab?", options: ["target='_blank'", "newtab='true'", "open='new'", "tab='new'"], answer: 0, explanation: "target='_blank' requests a new browsing context, commonly a new tab." },
+      { id: 15, question: "Which tag defines a dropdown list?", options: ["<dropdown>", "<select>", "<option-list>", "<input>"], answer: 1, explanation: "The select element creates a dropdown control." },
+      { id: 16, question: "Which element defines a navigation section?", options: ["<navigate>", "<nav>", "<menuitem>", "<navigation>"], answer: 1, explanation: "The nav element represents a section of navigation links." },
+      { id: 17, question: "Which attribute makes an input mandatory?", options: ["validate", "mandatory", "required", "must"], answer: 2, explanation: "The required attribute prevents submission when a required value is missing." },
+      { id: 18, question: "Which tag represents emphasized text?", options: ["<strong>", "<em>", "<bold>", "<mark>"], answer: 1, explanation: "The em element represents stress emphasis." },
+      { id: 19, question: "Which tag defines a table header cell?", options: ["<td>", "<tr>", "<th>", "<thead-cell>"], answer: 2, explanation: "The th element defines a header cell in a table." },
+      { id: 20, question: "Which HTML element is used for page footer content?", options: ["<bottom>", "<footer>", "<end>", "<section>"], answer: 1, explanation: "The footer element represents footer content for a page or section." },
+      { id: 21, question: "Which attribute specifies a unique identifier?", options: ["class", "id", "style", "name"], answer: 1, explanation: "The id attribute identifies a unique element in a document." },
+      { id: 22, question: "Which element is used to group form controls?", options: ["<fieldset>", "<group>", "<formgroup>", "<controls>"], answer: 0, explanation: "Fieldset groups related form controls." },
+      { id: 23, question: "Which element provides a caption for fieldset?", options: ["<caption>", "<legend>", "<label>", "<title>"], answer: 1, explanation: "The legend element provides a caption for a fieldset." },
+      { id: 24, question: "Which attribute specifies a form submission destination?", options: ["src", "action", "method", "target"], answer: 1, explanation: "The action attribute specifies where form data is submitted." },
+      { id: 25, question: "Which input type is used for email addresses?", options: ["text", "mail", "email", "address"], answer: 2, explanation: "The email input type provides built-in email-format validation." },
+      { id: 26, question: "Which element represents a thematic break?", options: ["<br>", "<hr>", "<line>", "<break>"], answer: 1, explanation: "The hr element represents a thematic break between content." },
+      { id: 27, question: "Which tag is used for scalable vector graphics?", options: ["<canvas>", "<svg>", "<vector>", "<graphic>"], answer: 1, explanation: "SVG is used for scalable vector graphics." },
+      { id: 28, question: "Which attribute connects a label to an input by ID?", options: ["for", "target", "connect", "input"], answer: 0, explanation: "The label's for attribute matches the input's id." },
+      { id: 29, question: "Which element is used to embed JavaScript?", options: ["<javascript>", "<code>", "<script>", "<js>"], answer: 2, explanation: "The script element embeds or references JavaScript." },
+      { id: 30, question: "Which element defines independent, self-contained content?", options: ["<div>", "<article>", "<span>", "<aside>"], answer: 1, explanation: "The article element represents self-contained content." }
+    ]
+  },
+
+  // ==========================================
+  // 2. CSS3 - 30 QUESTIONS
+  // ==========================================
+  {
+    id: "css3",
+    title: "CSS3",
+    category: "Frontend",
+    icon: "🎨",
+    duration: 20,
+    questions: [
+      { id: 1, question: "What does CSS stand for?", options: ["Computer Style Sheets", "Cascading Style Sheets", "Creative Style System", "Colorful Style Sheets"], answer: 1, explanation: "CSS stands for Cascading Style Sheets." },
+      { id: 2, question: "Which property changes text color?", options: ["font-color", "text-color", "color", "foreground"], answer: 2, explanation: "The color property sets text color." },
+      { id: 3, question: "Which selector targets an ID?", options: [".", "#", "*", "&"], answer: 1, explanation: "The # selector targets an element by ID." },
+      { id: 4, question: "Which selector targets a class?", options: ["#", ".", "@", "$"], answer: 1, explanation: "The dot selector targets elements with a class." },
+      { id: 5, question: "Which property changes background color?", options: ["background-color", "color", "bg", "background-style"], answer: 0, explanation: "background-color sets an element's background color." },
+      { id: 6, question: "Which property controls text size?", options: ["text-size", "font-size", "size", "font-style"], answer: 1, explanation: "font-size controls the size of text." },
+      { id: 7, question: "Which display value enables Flexbox?", options: ["block", "inline", "flex", "grid"], answer: 2, explanation: "display: flex enables Flexbox layout." },
+      { id: 8, question: "Which property adds space inside an element?", options: ["margin", "padding", "border", "gap"], answer: 1, explanation: "Padding is the space between content and border." },
+      { id: 9, question: "Which property adds space outside an element?", options: ["padding", "margin", "outline", "spacing"], answer: 1, explanation: "Margin creates space outside an element's border." },
+      { id: 10, question: "Which property makes a layout responsive using breakpoints?", options: ["@responsive", "@media", "@screen", "@device"], answer: 1, explanation: "Media queries apply CSS rules based on device conditions." },
+      { id: 11, question: "Which property controls stacking order?", options: ["position", "display", "z-index", "order"], answer: 2, explanation: "z-index controls stacking order of positioned elements and certain other layout items." },
+      { id: 12, question: "Which property rounds element corners?", options: ["corner-radius", "border-radius", "round", "radius"], answer: 1, explanation: "border-radius rounds element corners." },
+      { id: 13, question: "Which unit is relative to the root font size?", options: ["px", "em", "rem", "%"], answer: 2, explanation: "rem is relative to the root element's font size." },
+      { id: 14, question: "Which property controls text alignment?", options: ["font-align", "text-align", "align-text", "position"], answer: 1, explanation: "text-align controls horizontal text alignment." },
+      { id: 15, question: "Which value hides an element and removes its layout space?", options: ["visibility: hidden", "opacity: 0", "display: none", "hidden: true"], answer: 2, explanation: "display: none removes the element from layout." },
+      { id: 16, question: "Which property controls the element's position?", options: ["position", "float", "align", "display"], answer: 0, explanation: "position supports static, relative, absolute, fixed and sticky." },
+      { id: 17, question: "Which Flexbox property aligns items along the main axis?", options: ["align-items", "justify-content", "align-content", "flex-wrap"], answer: 1, explanation: "justify-content aligns items along the main axis." },
+      { id: 18, question: "Which Flexbox property aligns items along the cross axis?", options: ["justify-content", "align-items", "flex-direction", "order"], answer: 1, explanation: "align-items controls alignment on the cross axis." },
+      { id: 19, question: "Which property creates a grid layout?", options: ["display: grid", "grid: true", "position: grid", "layout: grid"], answer: 0, explanation: "display: grid creates a CSS Grid container." },
+      { id: 20, question: "Which pseudo-class targets an element on mouse hover?", options: [":active", ":focus", ":hover", ":visited"], answer: 2, explanation: ":hover applies styles while the pointer is over an element." },
+      { id: 21, question: "Which property adds a shadow around an element?", options: ["text-shadow", "box-shadow", "element-shadow", "border-shadow"], answer: 1, explanation: "box-shadow creates a shadow around an element's box." },
+      { id: 22, question: "Which property controls transparency?", options: ["visibility", "opacity", "transparent", "alpha"], answer: 1, explanation: "opacity controls an element's transparency from 0 to 1." },
+      { id: 23, question: "Which property controls content overflowing its box?", options: ["overflow", "display", "clip", "wrap"], answer: 0, explanation: "overflow controls content that extends beyond an element's box." },
+      { id: 24, question: "Which property defines transition duration?", options: ["transition-time", "animation-duration", "transition-duration", "duration"], answer: 2, explanation: "transition-duration defines how long a transition takes." },
+      { id: 25, question: "Which at-rule defines CSS animations?", options: ["@animation", "@keyframes", "@motion", "@frames"], answer: 1, explanation: "@keyframes defines animation stages." },
+      { id: 26, question: "Which property prevents an image from exceeding its container width?", options: ["width: fixed", "max-width: 100%", "overflow: image", "image-fit"], answer: 1, explanation: "max-width: 100% keeps the image within its container." },
+      { id: 27, question: "What does box-sizing: border-box do?", options: ["Excludes padding", "Includes padding and border in declared dimensions", "Removes borders", "Adds margin"], answer: 1, explanation: "Border-box includes padding and border in the specified width and height." },
+      { id: 28, question: "Which pseudo-element inserts generated content?", options: ["::before", ":hover", "::focus", "::active"], answer: 0, explanation: "::before creates a generated child before an element's content." },
+      { id: 29, question: "Which property changes the mouse pointer appearance?", options: ["mouse", "pointer", "cursor", "hover"], answer: 2, explanation: "The cursor property controls the pointer appearance." },
+      { id: 30, question: "Which property controls whether flex items wrap?", options: ["flex-direction", "flex-wrap", "flex-flow", "flex-grow"], answer: 1, explanation: "flex-wrap controls whether flex items move onto additional lines." }
+    ]
+  },
+
+  // ==========================================
+  // 3. JAVASCRIPT - 30 QUESTIONS
+  // ==========================================
+  {
+    id: "javascript",
+    title: "JavaScript",
+    category: "Programming",
+    icon: "⚡",
+    duration: 25,
+    questions: [
+      { id: 1, question: "Which keyword declares a block-scoped variable?", options: ["var", "let", "define", "int"], answer: 1, explanation: "let declares a block-scoped variable." },
+      { id: 2, question: "Which keyword declares a variable that cannot be reassigned?", options: ["var", "let", "const", "static"], answer: 2, explanation: "const prevents reassignment of the binding." },
+      { id: 3, question: "Which operator checks value and type equality?", options: ["==", "=", "===", "!="], answer: 2, explanation: "=== performs strict equality comparison." },
+      { id: 4, question: "Which method prints output in the browser console?", options: ["print()", "console.log()", "document.write()", "output()"], answer: 1, explanation: "console.log() writes messages to the console." },
+      { id: 5, question: "Which method adds an item to the end of an array?", options: ["pop()", "shift()", "push()", "unshift()"], answer: 2, explanation: "push() adds one or more elements to the end." },
+      { id: 6, question: "Which method removes the last array item?", options: ["pop()", "push()", "shift()", "slice()"], answer: 0, explanation: "pop() removes and returns the last element." },
+      { id: 7, question: "Which method converts JSON text into a JavaScript value?", options: ["JSON.stringify()", "JSON.parse()", "JSON.convert()", "JSON.read()"], answer: 1, explanation: "JSON.parse() parses JSON text into a JavaScript value." },
+      { id: 8, question: "Which method converts a JavaScript value to JSON text?", options: ["JSON.parse()", "JSON.stringify()", "JSON.convert()", "JSON.toObject()"], answer: 1, explanation: "JSON.stringify() serializes a value into JSON text." },
+      { id: 9, question: "Which keyword defines a function?", options: ["function", "method", "func", "define"], answer: 0, explanation: "The function keyword declares a function." },
+      { id: 10, question: "What is the DOM?", options: ["Data Object Model", "Document Object Model", "Digital Order Method", "Document Oriented Mode"], answer: 1, explanation: "DOM represents a document as a tree of objects." },
+      { id: 11, question: "Which method selects an element by ID?", options: ["getElementById()", "queryById()", "selectId()", "getId()"], answer: 0, explanation: "document.getElementById() selects an element by its ID." },
+      { id: 12, question: "Which method attaches an event listener?", options: ["onEvent()", "addEventListener()", "listen()", "eventAdd()"], answer: 1, explanation: "addEventListener() registers an event handler." },
+      { id: 13, question: "What does NaN mean?", options: ["No Assigned Number", "Not a Number", "New Array Number", "Null and Number"], answer: 1, explanation: "NaN represents a value that is not a valid number." },
+      { id: 14, question: "Which loop executes while a condition is true?", options: ["for", "while", "switch", "foreach"], answer: 1, explanation: "A while loop repeats while its condition is true." },
+      { id: 15, question: "Which array method creates a new array by transforming elements?", options: ["forEach()", "map()", "find()", "some()"], answer: 1, explanation: "map() transforms each element and returns a new array." },
+      { id: 16, question: "Which array method filters elements using a condition?", options: ["map()", "reduce()", "filter()", "join()"], answer: 2, explanation: "filter() returns elements that satisfy the callback condition." },
+      { id: 17, question: "What does typeof return?", options: ["A variable's value", "A value's type as a string", "An object's keys", "A function result"], answer: 1, explanation: "typeof returns a string describing the operand's type." },
+      { id: 18, question: "Which symbol is used for arrow functions?", options: ["->", "=>", "<-", "::"], answer: 1, explanation: "Arrow functions use the => syntax." },
+      { id: 19, question: "What is a Promise used for?", options: ["Styling HTML", "Handling asynchronous operations", "Creating arrays", "Declaring classes"], answer: 1, explanation: "Promises represent the eventual completion or failure of asynchronous work." },
+      { id: 20, question: "Which keyword waits for a Promise inside an async function?", options: ["wait", "pause", "await", "defer"], answer: 2, explanation: "await pauses the async function until the Promise settles." },
+      { id: 21, question: "Which method makes an HTTP request in modern browsers?", options: ["fetch()", "requestHTML()", "httpGet()", "send()"], answer: 0, explanation: "fetch() provides an API for making network requests." },
+      { id: 22, question: "What is the result of typeof null?", options: ["null", "undefined", "object", "boolean"], answer: 2, explanation: "typeof null returns object due to a historical JavaScript behavior." },
+      { id: 23, question: "Which method executes a function once after a delay?", options: ["setInterval()", "setTimeout()", "delay()", "wait()"], answer: 1, explanation: "setTimeout() schedules a callback after a delay." },
+      { id: 24, question: "What is an object in JavaScript?", options: ["A collection of key-value properties", "Only a number", "A loop", "A CSS selector"], answer: 0, explanation: "Objects store properties as key-value pairs." },
+      { id: 25, question: "What does the spread operator look like?", options: ["***", "...", "&&", "=>"], answer: 1, explanation: "The spread syntax uses three dots." },
+      { id: 26, question: "Which statement handles exceptions?", options: ["if-else", "try-catch", "for-while", "switch-case"], answer: 1, explanation: "try-catch handles exceptions." },
+      { id: 27, question: "Which keyword creates a class?", options: ["object", "class", "struct", "prototype"], answer: 1, explanation: "The class keyword defines a JavaScript class." },
+      { id: 28, question: "What does localStorage store?", options: ["Temporary variables only", "Key-value data that persists in the browser", "Server files", "HTML elements"], answer: 1, explanation: "localStorage stores string key-value data across browser sessions." },
+      { id: 29, question: "Which operator returns a fallback only when the left side is null or undefined?", options: ["||", "??", "&&", "!="], answer: 1, explanation: "The nullish coalescing operator ?? checks for null or undefined." },
+      { id: 30, question: "What is closure in JavaScript?", options: ["A CSS effect", "A function retaining access to its lexical scope", "An array method", "A browser event"], answer: 1, explanation: "A closure lets a function access variables from its outer lexical scope." }
+    ]
+  },
+
+  // ==========================================
+  // 4. REACT.JS - 30 QUESTIONS
+  // ==========================================
+  {
+    id: "react",
+    title: "React.js",
+    category: "Frontend",
+    icon: "⚛️",
+    duration: 25,
+    questions: [
+      { id: 1, question: "What is React?", options: ["Database", "JavaScript library for building user interfaces", "Programming language", "CSS framework"], answer: 1, explanation: "React is a JavaScript library for building user interfaces." },
+      { id: 2, question: "Who developed React?", options: ["Google", "Microsoft", "Meta (Facebook)", "Amazon"], answer: 2, explanation: "React was originally developed at Facebook, now Meta." },
+      { id: 3, question: "What is JSX?", options: ["JavaScript XML", "Java Syntax Extension", "JSON XML", "JavaScript XHTML"], answer: 0, explanation: "JSX is a syntax extension that lets you write markup-like syntax in JavaScript." },
+      { id: 4, question: "Which Hook manages component state?", options: ["useEffect", "useState", "useRef", "useMemo"], answer: 1, explanation: "useState adds state to function components." },
+      { id: 5, question: "Which Hook handles side effects?", options: ["useState", "useContext", "useEffect", "useReducer"], answer: 2, explanation: "useEffect synchronizes a component with external systems." },
+      { id: 6, question: "What are props?", options: ["Internal state", "Inputs passed from parent to child components", "CSS classes", "Database records"], answer: 1, explanation: "Props pass data and callbacks to child components." },
+      { id: 7, question: "What is a component?", options: ["Reusable UI building block", "Database table", "CSS property", "Browser API"], answer: 0, explanation: "Components are reusable pieces of UI." },
+      { id: 8, question: "How should React lists identify sibling elements?", options: ["Using random numbers", "Using unique keys", "Using CSS IDs", "Using indexes always"], answer: 1, explanation: "Keys help React identify items between renders." },
+      { id: 9, question: "What is the Virtual DOM?", options: ["A database", "An in-memory representation of UI", "A browser plugin", "A CSS framework"], answer: 1, explanation: "React uses an in-memory UI representation to determine updates." },
+      { id: 10, question: "Can a child component directly modify its props?", options: ["Yes", "No", "Only in class components", "Only with useEffect"], answer: 1, explanation: "Props are read-only from the receiving component's perspective." },
+      { id: 11, question: "Which syntax renders a JavaScript expression in JSX?", options: ["${}", "{}", "()", "[]"], answer: 1, explanation: "Curly braces embed JavaScript expressions in JSX." },
+      { id: 12, question: "Which Hook shares data across components?", options: ["useContext", "useRef", "useMemo", "useId"], answer: 0, explanation: "useContext reads values from React context." },
+      { id: 13, question: "What is React Router used for?", options: ["Database queries", "Client-side navigation", "CSS styling", "API authentication"], answer: 1, explanation: "React Router handles navigation and route matching in React applications." },
+      { id: 14, question: "What is a controlled input?", options: ["An input managed by React state", "An input without value", "A disabled input", "An input managed by CSS"], answer: 0, explanation: "A controlled input receives its value from React state." },
+      { id: 15, question: "Which Hook accesses a mutable reference?", options: ["useState", "useEffect", "useRef", "useContext"], answer: 2, explanation: "useRef creates a mutable reference that persists between renders." },
+      { id: 16, question: "What is useMemo used for?", options: ["Routing", "Memoizing calculated values", "Updating DOM manually", "Creating context"], answer: 1, explanation: "useMemo caches a calculated value between renders." },
+      { id: 17, question: "What is useCallback used for?", options: ["Memoizing function definitions", "Creating database tables", "Fetching CSS", "Managing routes"], answer: 0, explanation: "useCallback caches a function definition between renders." },
+      { id: 18, question: "What does lifting state up mean?", options: ["Moving state to a common parent", "Deleting state", "Moving state to CSS", "Using localStorage"], answer: 0, explanation: "Lifting state up means moving shared state into a common ancestor." },
+      { id: 19, question: "What is conditional rendering?", options: ["Rendering UI based on conditions", "Rendering every component", "Creating CSS animations", "Database validation"], answer: 0, explanation: "Conditional rendering displays UI based on JavaScript conditions." },
+      { id: 20, question: "What is the purpose of fragments?", options: ["Add extra DOM nodes", "Group elements without an extra DOM element", "Create routes", "Store state"], answer: 1, explanation: "Fragments group children without adding an extra DOM node." },
+      { id: 21, question: "What does useReducer manage?", options: ["Complex state using a reducer", "CSS styles only", "Browser history", "API URLs"], answer: 0, explanation: "useReducer manages state using a reducer function and dispatch." },
+      { id: 22, question: "What is the purpose of React keys?", options: ["Encrypt data", "Identify list elements between renders", "Style components", "Store passwords"], answer: 1, explanation: "Keys help React track list items when they change." },
+      { id: 23, question: "What is an effect cleanup function used for?", options: ["Deleting React", "Cleaning up subscriptions, timers and other resources", "Resetting CSS", "Removing props"], answer: 1, explanation: "Effect cleanup releases resources before reruns or unmounting." },
+      { id: 24, question: "What is the children prop?", options: ["Data from an API", "Content nested inside a component", "A React Hook", "A route parameter"], answer: 1, explanation: "children represents content nested between a component's opening and closing tags." },
+      { id: 25, question: "What is a custom Hook?", options: ["A reusable function that uses React Hooks", "A CSS file", "A component with no JSX", "A database function"], answer: 0, explanation: "Custom Hooks reuse stateful logic across components." },
+      { id: 26, question: "Which command commonly creates a React project with Vite?", options: ["npm create vite@latest", "npm start react", "react install", "vite build react"], answer: 0, explanation: "Vite provides a project scaffolding command for React applications." },
+      { id: 27, question: "What does React StrictMode help identify?", options: ["CSS errors only", "Potential problems in React development", "Database errors", "Network speed"], answer: 1, explanation: "StrictMode helps identify potential issues during development." },
+      { id: 28, question: "What is reconciliation in React?", options: ["Comparing UI representations to determine updates", "Installing packages", "Creating CSS", "Connecting databases"], answer: 0, explanation: "Reconciliation is React's process for determining necessary UI updates." },
+      { id: 29, question: "What is a synthetic event?", options: ["React's cross-browser event wrapper", "A CSS animation", "An API response", "A component state"], answer: 0, explanation: "React provides a consistent event interface across browsers." },
+      { id: 30, question: "What does React.lazy help with?", options: ["Lazy loading components", "Changing CSS", "Updating state", "Creating APIs"], answer: 0, explanation: "React.lazy enables component code splitting through dynamic imports." }
+    ]
+  },
+
+  // ==========================================
+  // 5. SQL - 30 QUESTIONS
+  // ==========================================
+  {
+    id: "sql",
+    title: "SQL",
+    category: "Database",
+    icon: "🗄️",
+    duration: 25,
+    questions: [
+      { id: 1, question: "What does SQL stand for?", options: ["Structured Query Language", "Simple Query Language", "Standard Question Language", "System Query Logic"], answer: 0, explanation: "SQL stands for Structured Query Language." },
+      { id: 2, question: "Which command retrieves records?", options: ["INSERT", "UPDATE", "SELECT", "DELETE"], answer: 2, explanation: "SELECT retrieves data from tables." },
+      { id: 3, question: "Which command adds a new row?", options: ["ADD", "INSERT", "CREATE", "UPDATE"], answer: 1, explanation: "INSERT adds new rows to a table." },
+      { id: 4, question: "Which command modifies existing records?", options: ["ALTER", "UPDATE", "CHANGE", "MODIFY"], answer: 1, explanation: "UPDATE modifies existing table records." },
+      { id: 5, question: "Which command removes selected rows?", options: ["DROP", "REMOVE", "DELETE", "CLEAR"], answer: 2, explanation: "DELETE removes rows from a table." },
+      { id: 6, question: "Which clause filters records?", options: ["ORDER BY", "WHERE", "GROUP BY", "SELECT"], answer: 1, explanation: "WHERE filters rows based on a condition." },
+      { id: 7, question: "Which clause sorts query results?", options: ["SORT", "ORDER BY", "GROUP BY", "HAVING"], answer: 1, explanation: "ORDER BY sorts query results." },
+      { id: 8, question: "Which function counts rows?", options: ["SUM()", "AVG()", "COUNT()", "TOTAL()"], answer: 2, explanation: "COUNT() returns the number of rows or non-NULL values depending on its argument." },
+      { id: 9, question: "Which constraint uniquely identifies each row?", options: ["FOREIGN KEY", "PRIMARY KEY", "CHECK", "DEFAULT"], answer: 1, explanation: "A primary key uniquely identifies each row and cannot be NULL." },
+      { id: 10, question: "What does a foreign key do?", options: ["Deletes a table", "References a key in another or the same table", "Sorts records", "Creates a database"], answer: 1, explanation: "A foreign key enforces a relationship with a referenced key." },
+      { id: 11, question: "Which join returns matching rows from both tables?", options: ["LEFT JOIN", "RIGHT JOIN", "INNER JOIN", "FULL JOIN"], answer: 2, explanation: "INNER JOIN returns rows satisfying the join condition in both tables." },
+      { id: 12, question: "Which join returns all rows from the left table?", options: ["INNER JOIN", "LEFT JOIN", "CROSS JOIN", "SELF JOIN"], answer: 1, explanation: "LEFT JOIN keeps all left-table rows and matching right-table rows." },
+      { id: 13, question: "Which clause groups rows?", options: ["GROUP BY", "ORDER BY", "WHERE", "DISTINCT"], answer: 0, explanation: "GROUP BY groups rows with matching values." },
+      { id: 14, question: "Which clause filters grouped results?", options: ["WHERE", "HAVING", "ORDER BY", "LIMIT"], answer: 1, explanation: "HAVING filters groups after grouping." },
+      { id: 15, question: "Which function calculates an average?", options: ["SUM()", "COUNT()", "AVG()", "MAX()"], answer: 2, explanation: "AVG() calculates the average of non-NULL numeric values." },
+      { id: 16, question: "Which operator checks a range of values?", options: ["IN", "LIKE", "BETWEEN", "EXISTS"], answer: 2, explanation: "BETWEEN checks whether a value falls within an inclusive range." },
+      { id: 17, question: "Which operator matches a text pattern?", options: ["LIKE", "MATCH", "TEXT", "FIND"], answer: 0, explanation: "LIKE performs pattern matching using wildcards such as % and _." },
+      { id: 18, question: "Which wildcard matches zero or more characters with LIKE?", options: ["_", "%", "*", "#"], answer: 1, explanation: "% matches zero or more characters." },
+      { id: 19, question: "Which keyword removes duplicate result rows?", options: ["UNIQUE", "DISTINCT", "DIFFERENT", "REMOVE"], answer: 1, explanation: "DISTINCT removes duplicate rows from the query result." },
+      { id: 20, question: "What does NULL represent?", options: ["Zero", "Empty string", "Missing or unknown value", "False"], answer: 2, explanation: "NULL represents missing or unknown data." },
+      { id: 21, question: "How do you check for NULL values?", options: ["= NULL", "IS NULL", "== NULL", "EQUAL NULL"], answer: 1, explanation: "IS NULL checks whether an expression is NULL." },
+      { id: 22, question: "Which command removes a table structure and its data?", options: ["DELETE", "DROP TABLE", "TRUNCATE ROW", "REMOVE"], answer: 1, explanation: "DROP TABLE removes the table definition and its data." },
+      { id: 23, question: "Which command removes all rows while retaining the table structure?", options: ["DROP", "TRUNCATE", "ALTER", "CREATE"], answer: 1, explanation: "TRUNCATE removes all rows while retaining the table structure; transaction behavior varies by database." },
+      { id: 24, question: "Which SQL command changes a table structure?", options: ["UPDATE", "ALTER TABLE", "CHANGE ROW", "MODIFY DATA"], answer: 1, explanation: "ALTER TABLE changes a table's structure." },
+      { id: 25, question: "Which statement is a DDL command?", options: ["SELECT", "INSERT", "CREATE", "UPDATE"], answer: 2, explanation: "CREATE is a Data Definition Language command." },
+      { id: 26, question: "Which statement is a DML command?", options: ["CREATE", "ALTER", "DROP", "INSERT"], answer: 3, explanation: "INSERT is a Data Manipulation Language command." },
+      { id: 27, question: "What is a subquery?", options: ["A query inside another query", "A database", "A table constraint", "A join type"], answer: 0, explanation: "A subquery is a query nested inside another SQL statement." },
+      { id: 28, question: "Which function returns the maximum value?", options: ["MIN()", "MAX()", "TOP()", "HIGH()"], answer: 1, explanation: "MAX() returns the maximum value." },
+      { id: 29, question: "What is an index used for?", options: ["Speeding up data retrieval", "Deleting duplicates automatically", "Creating users", "Changing data types"], answer: 0, explanation: "Indexes can improve query retrieval performance." },
+      { id: 30, question: "Which command permanently saves a transaction?", options: ["ROLLBACK", "SAVE", "COMMIT", "CLOSE"], answer: 2, explanation: "COMMIT saves the transaction's changes." }
+    ]
+  },
+
+  // ==========================================
+  // 6. PYTHON - 30 QUESTIONS
+  // ==========================================
+  {
+    id: "python",
+    title: "Python",
+    category: "Programming",
+    icon: "🐍",
+    duration: 25,
+    questions: [
+      { id: 1, question: "Who created Python?", options: ["James Gosling", "Guido van Rossum", "Dennis Ritchie", "Brendan Eich"], answer: 1, explanation: "Guido van Rossum created Python." },
+      { id: 2, question: "Which file extension is commonly used for Python files?", options: [".java", ".py", ".js", ".html"], answer: 1, explanation: "Python source files commonly use the .py extension." },
+      { id: 3, question: "Which function displays output?", options: ["echo()", "print()", "display()", "write()"], answer: 1, explanation: "print() displays output." },
+      { id: 4, question: "Which data type stores True or False?", options: ["int", "str", "bool", "float"], answer: 2, explanation: "bool stores Boolean values." },
+      { id: 5, question: "Which collection is ordered and mutable?", options: ["tuple", "list", "set", "frozenset"], answer: 1, explanation: "Lists are ordered and mutable." },
+      { id: 6, question: "Which collection stores key-value pairs?", options: ["list", "tuple", "dictionary", "set"], answer: 2, explanation: "Dictionaries store key-value pairs." },
+      { id: 7, question: "Which keyword defines a function?", options: ["function", "def", "fun", "define"], answer: 1, explanation: "def declares a function." },
+      { id: 8, question: "Which symbol starts a comment on a single line?", options: ["//", "#", "/*", "--"], answer: 1, explanation: "The # symbol starts a single-line comment." },
+      { id: 9, question: "Which loop iterates over a sequence?", options: ["for", "switch", "repeat", "case"], answer: 0, explanation: "A for loop iterates over items in an iterable." },
+      { id: 10, question: "What is the output of len([1, 2, 3])?", options: ["2", "3", "4", "1"], answer: 1, explanation: "len() returns the number of items, which is 3." },
+      { id: 11, question: "Which operator performs exponentiation?", options: ["^", "**", "//", "%"], answer: 1, explanation: "** is the exponentiation operator." },
+      { id: 12, question: "What is the result of 10 // 3?", options: ["3.33", "3", "1", "0"], answer: 1, explanation: "// performs floor division." },
+      { id: 13, question: "Which keyword handles exceptions?", options: ["catch", "try", "error", "handle"], answer: 1, explanation: "try starts an exception-handling block." },
+      { id: 14, question: "Which keyword creates a class?", options: ["object", "struct", "class", "define"], answer: 2, explanation: "class defines a Python class." },
+      { id: 15, question: "What is inheritance?", options: ["A class receiving features from another class", "Deleting an object", "Creating a loop", "Importing a module"], answer: 0, explanation: "Inheritance lets a class reuse or extend another class's behavior." },
+      { id: 16, question: "Which method adds an item to a list?", options: ["add()", "append()", "insertEnd()", "push()"], answer: 1, explanation: "append() adds an item to the end of a list." },
+      { id: 17, question: "Which method converts a string to lowercase?", options: ["lower()", "small()", "case()", "tolower()"], answer: 0, explanation: "lower() returns a lowercase version of a string." },
+      { id: 18, question: "Which keyword imports a module?", options: ["include", "using", "import", "require"], answer: 2, explanation: "import loads a module into the current namespace." },
+      { id: 19, question: "What does range(5) produce?", options: ["1 to 5", "0 to 4", "0 to 5", "1 to 4"], answer: 1, explanation: "range(5) produces integers from 0 through 4." },
+      { id: 20, question: "Which collection does not allow duplicate values?", options: ["list", "tuple", "set", "string"], answer: 2, explanation: "A set stores unique elements." },
+      { id: 21, question: "What is None in Python?", options: ["Zero", "A null value", "An empty list", "False only"], answer: 1, explanation: "None represents the absence of a value." },
+      { id: 22, question: "Which function gets the data type of a value?", options: ["type()", "data()", "typeof()", "classof()"], answer: 0, explanation: "type() returns an object's type." },
+      { id: 23, question: "Which keyword is used to return a value from a function?", options: ["yield", "return", "print", "break"], answer: 1, explanation: "return exits a function and optionally sends back a value." },
+      { id: 24, question: "What is a lambda function?", options: ["Anonymous function", "A class", "A module", "A loop"], answer: 0, explanation: "lambda creates a small anonymous function." },
+      { id: 25, question: "Which mode opens a file for reading?", options: ["w", "a", "r", "x"], answer: 2, explanation: "The r mode opens a file for reading." },
+      { id: 26, question: "What does OOP stand for?", options: ["Object-Oriented Programming", "Open Object Process", "Order of Operations", "Object Output Program"], answer: 0, explanation: "OOP stands for Object-Oriented Programming." },
+      { id: 27, question: "Which keyword creates a generator function?", options: ["return", "yield", "generate", "async"], answer: 1, explanation: "yield produces values from a generator." },
+      { id: 28, question: "What is a virtual environment used for?", options: ["Isolating project dependencies", "Creating HTML", "Increasing RAM", "Hosting a website"], answer: 0, explanation: "Virtual environments isolate project packages and dependencies." },
+      { id: 29, question: "Which keyword checks whether a value belongs to a sequence?", options: ["contains", "in", "has", "inside"], answer: 1, explanation: "in checks membership in an iterable or container." },
+      { id: 30, question: "What is PEP 8?", options: ["A database", "Python style guide", "A Python compiler", "A web framework"], answer: 1, explanation: "PEP 8 describes Python code style conventions." }
+    ]
+  },
+
+  // ==========================================
+  // 7. GIT AND GITHUB - 30 QUESTIONS
+  // ==========================================
+  {
+    id: "git-github",
+    title: "Git & GitHub",
+    category: "Development Tools",
+    icon: "🛠️",
+    duration: 20,
+    questions: [
+      { id: 1, question: "What is Git?", options: ["Programming language", "Distributed version control system", "Database", "Web browser"], answer: 1, explanation: "Git is a distributed version control system." },
+      { id: 2, question: "What is GitHub?", options: ["A programming language", "A cloud platform for hosting Git repositories and collaboration", "A database", "An operating system"], answer: 1, explanation: "GitHub hosts Git repositories and provides collaboration tools." },
+      { id: 3, question: "Which command initializes a Git repository?", options: ["git start", "git init", "git create", "git new"], answer: 1, explanation: "git init initializes a new repository." },
+      { id: 4, question: "Which command checks repository status?", options: ["git check", "git status", "git info", "git log"], answer: 1, explanation: "git status shows the state of the working tree and staging area." },
+      { id: 5, question: "Which command stages changes?", options: ["git save", "git add", "git push", "git commit"], answer: 1, explanation: "git add stages changes for the next commit." },
+      { id: 6, question: "Which command creates a commit?", options: ["git push", "git save", "git commit", "git stage"], answer: 2, explanation: "git commit records staged changes." },
+      { id: 7, question: "Which command uploads local commits to a remote?", options: ["git pull", "git push", "git clone", "git fetch"], answer: 1, explanation: "git push sends local commits to a remote repository." },
+      { id: 8, question: "Which command copies a remote repository locally?", options: ["git copy", "git clone", "git pull", "git fork"], answer: 1, explanation: "git clone creates a local copy of a remote repository." },
+      { id: 9, question: "Which command downloads and integrates remote changes?", options: ["git push", "git add", "git pull", "git init"], answer: 2, explanation: "git pull fetches and integrates changes from a remote branch." },
+      { id: 10, question: "Which command displays commit history?", options: ["git status", "git log", "git history", "git show-all"], answer: 1, explanation: "git log displays commit history." },
+      { id: 11, question: "What is a Git branch?", options: ["A separate line of development", "A file extension", "A commit message", "A remote server"], answer: 0, explanation: "Branches let developers work on separate lines of development." },
+      { id: 12, question: "Which command creates and switches to a new branch?", options: ["git checkout -b feature", "git push feature", "git init feature", "git merge feature"], answer: 0, explanation: "git checkout -b creates and switches to a branch; git switch -c is another modern option." },
+      { id: 13, question: "Which command merges another branch into the current branch?", options: ["git add", "git merge", "git clone", "git status"], answer: 1, explanation: "git merge integrates another branch into the current branch." },
+      { id: 14, question: "What is a merge conflict?", options: ["A network issue", "Incompatible changes Git cannot automatically combine", "A deleted repository", "A password error"], answer: 1, explanation: "A merge conflict occurs when Git cannot automatically reconcile changes." },
+      { id: 15, question: "Which command displays remote repository URLs?", options: ["git remote -v", "git branch", "git log", "git config"], answer: 0, explanation: "git remote -v displays configured remotes and their URLs." },
+      { id: 16, question: "What is a commit?", options: ["A saved snapshot of repository changes", "A GitHub account", "A branch name", "A text editor"], answer: 0, explanation: "A commit records a snapshot of repository changes." },
+      { id: 17, question: "What is a pull request?", options: ["A request to review and merge proposed changes", "A Git installation", "A terminal command", "A local branch"], answer: 0, explanation: "A pull request proposes changes for review and merging." },
+      { id: 18, question: "What is a fork on GitHub?", options: ["Deleting a repository", "Creating your own copy of another repository", "Merging two commits", "Changing a password"], answer: 1, explanation: "A fork creates a separate GitHub copy of a repository." },
+      { id: 19, question: "What is a .gitignore file used for?", options: ["Storing passwords", "Specifying untracked files Git should ignore", "Creating commits", "Uploading images"], answer: 1, explanation: ".gitignore specifies intentionally untracked files for Git to ignore." },
+      { id: 20, question: "Which command shows differences in working-tree files?", options: ["git diff", "git status", "git branch", "git push"], answer: 0, explanation: "git diff shows changes between Git states." },
+      { id: 21, question: "Which command retrieves remote changes without integrating them?", options: ["git pull", "git fetch", "git push", "git clone"], answer: 1, explanation: "git fetch downloads remote updates without merging them." },
+      { id: 22, question: "What is the staging area?", options: ["A place for changes selected for the next commit", "A GitHub website", "A remote database", "A branch protection rule"], answer: 0, explanation: "The staging area holds changes prepared for a commit." },
+      { id: 23, question: "Which command creates a lightweight or annotated tag?", options: ["git tag", "git mark", "git label", "git version"], answer: 0, explanation: "git tag creates and manages tags." },
+      { id: 24, question: "Which command can undo the last commit by creating a new reversing commit?", options: ["git reset", "git revert", "git clean", "git init"], answer: 1, explanation: "git revert creates a new commit that reverses earlier changes." },
+      { id: 25, question: "What does git reset do?", options: ["Moves HEAD and can change staging or working files", "Deletes GitHub", "Creates a remote", "Uploads a branch"], answer: 0, explanation: "git reset moves HEAD and optionally updates the index and working tree." },
+      { id: 26, question: "What is the default branch commonly named in new GitHub repositories?", options: ["master only", "main", "default", "root"], answer: 1, explanation: "main is the common default branch name on GitHub." },
+      { id: 27, question: "Which command sets your Git username?", options: ["git user set", "git config --global user.name", "git username", "git account"], answer: 1, explanation: "git config --global user.name sets your global Git author name." },
+      { id: 28, question: "What is a README file used for?", options: ["Describing a project and its usage", "Storing compiled code", "Deleting commits", "Configuring Git branches"], answer: 0, explanation: "README files explain the project, setup and usage." },
+      { id: 29, question: "What is GitHub Actions used for?", options: ["Automating workflows such as CI/CD", "Editing images only", "Creating databases", "Replacing Git"], answer: 0, explanation: "GitHub Actions automates repository workflows." },
+      { id: 30, question: "What is the purpose of .git directory?", options: ["Stores repository metadata and Git objects", "Stores only images", "Hosts the website", "Stores browser history"], answer: 0, explanation: ".git contains repository metadata, objects, refs and configuration." }
+    ]
+  }
+];
